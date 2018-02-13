@@ -7,7 +7,7 @@
 		<key>NSStringVariableWidthRuleType</key>
 		<dict>
 			<key>50</key>
-			<string>Todays date</string>
+			<string>Todays Date</string>
 			<key>20</key>
 			<string>Today</string>
 		</dict>

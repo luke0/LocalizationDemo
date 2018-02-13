@@ -42,10 +42,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-Local.png" translatesAutoresizingMaskIntoConstraints="NO" id="SjV-8f-DKK">
+                                <rect key="frame" x="167.5" y="169" width="40" height="40"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Ywo-Ca-wM7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Cwj-W7-LAC"/>
+                            <constraint firstItem="SjV-8f-DKK" firstAttribute="top" secondItem="W5O-Km-iRq" secondAttribute="bottom" constant="18.5" id="DvK-tD-wVo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UyZ-HP-PSY" secondAttribute="trailing" constant="5" id="Fia-A0-2EO"/>
                             <constraint firstItem="W5O-Km-iRq" firstAttribute="leading" secondItem="Ywo-Ca-wM7" secondAttribute="leading" id="Hwi-4C-zqi"/>
                             <constraint firstItem="UyZ-HP-PSY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ywo-Ca-wM7" secondAttribute="trailing" constant="10" id="SMz-SN-0bh"/>
@@ -54,12 +58,14 @@
                             <constraint firstItem="2aE-Pr-5Gb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="W5O-Km-iRq" secondAttribute="trailing" constant="10" id="idL-4V-rB2"/>
                             <constraint firstItem="Ywo-Ca-wM7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="l68-6G-y9W"/>
                             <constraint firstItem="2aE-Pr-5Gb" firstAttribute="trailing" secondItem="UyZ-HP-PSY" secondAttribute="trailing" id="lo5-Yk-tvN"/>
+                            <constraint firstItem="SjV-8f-DKK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mD3-Na-PqU"/>
                             <constraint firstItem="W5O-Km-iRq" firstAttribute="top" secondItem="Ywo-Ca-wM7" secondAttribute="bottom" constant="25" id="wEI-28-Tuu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="QCf-cs-nmK"/>
                     <connections>
+                        <outlet property="imageLocalised" destination="SjV-8f-DKK" id="bX0-96-yQq"/>
                         <outlet property="labelTodaysDate" destination="W5O-Km-iRq" id="dGX-To-BC2"/>
                         <outlet property="labelTodaysDateValue" destination="2aE-Pr-5Gb" id="MMw-gV-GPB"/>
                         <outlet property="labelTotalAnnualRevenue" destination="Ywo-Ca-wM7" id="4bx-e9-2XW"/>
@@ -89,4 +95,7 @@
             <point key="canvasLocation" x="-385" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image-Local.png" width="40" height="40"/>
+    </resources>
 </document>

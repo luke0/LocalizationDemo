@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelTotalAnnualRevenueValue;
 @property (weak, nonatomic) IBOutlet UILabel *labelTodaysDate;
 @property (weak, nonatomic) IBOutlet UILabel *labelTodaysDateValue;
+@property (weak, nonatomic) IBOutlet UIImageView *imageLocalised;
 
 @end
 

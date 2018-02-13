@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234ECD6820334BFD007CABFA /* grid-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 234ECD6720334BFD007CABFA /* grid-ipad.png */; };
+		234ECD7020334CC8007CABFA /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 234ECD6F20334CC8007CABFA /* TestObj.m */; };
+		23AA497A2033191E00B65275 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 23AA49792033191E00B65275 /* Localizable.stringsdict */; };
+		23FFE5262033429D0056F30B /* Image-Local.png in Resources */ = {isa = PBXBuildFile; fileRef = 23FFE5282033429D0056F30B /* Image-Local.png */; };
+		23FFE52F2033442F0056F30B /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FFE52E2033442F0056F30B /* Colours.xcassets */; };
 		A31248EB2031DD7700FFAA1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A31248EA2031DD7700FFAA1D /* AppDelegate.m */; };
 		A31248EE2031DD7700FFAA1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31248ED2031DD7700FFAA1D /* ViewController.m */; };
 		A31248F12031DD7700FFAA1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31248EF2031DD7700FFAA1D /* Main.storyboard */; };
@@ -18,6 +23,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		234ECD6720334BFD007CABFA /* grid-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid-ipad.png"; sourceTree = "<group>"; };
+		234ECD6920334C92007CABFA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		234ECD6A20334C92007CABFA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		234ECD6B20334C92007CABFA /* it */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = it; path = "it.lproj/Image-Local.png"; sourceTree = "<group>"; };
+		234ECD6C20334C92007CABFA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		234ECD6D20334C93007CABFA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		234ECD6E20334CC8007CABFA /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		234ECD6F20334CC8007CABFA /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		23AA49792033191E00B65275 /* Localizable.stringsdict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = SOURCE_ROOT; };
+		23FFE5272033429D0056F30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/Image-Local.png"; sourceTree = "<group>"; };
+		23FFE52E2033442F0056F30B /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
 		A31248E62031DD7700FFAA1D /* DemoLocalisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLocalisation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31248E92031DD7700FFAA1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A31248EA2031DD7700FFAA1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +81,11 @@
 		A31248E82031DD7700FFAA1D /* DemoLocalisation */ = {
 			isa = PBXGroup;
 			children = (
+				234ECD6E20334CC8007CABFA /* TestObj.h */,
+				234ECD6F20334CC8007CABFA /* TestObj.m */,
+				234ECD6720334BFD007CABFA /* grid-ipad.png */,
+				23FFE5282033429D0056F30B /* Image-Local.png */,
+				23AA49792033191E00B65275 /* Localizable.stringsdict */,
 				A31249642031FDA600FFAA1D /* Localizable.strings */,
 				A312495F2031FDA500FFAA1D /* InfoPlist.strings */,
 				A31248E92031DD7700FFAA1D /* AppDelegate.h */,
@@ -76,6 +97,7 @@
 				A31248F42031DD7700FFAA1D /* LaunchScreen.storyboard */,
 				A31248F72031DD7700FFAA1D /* Info.plist */,
 				A31248F82031DD7700FFAA1D /* main.m */,
+				23FFE52E2033442F0056F30B /* Colours.xcassets */,
 			);
 			path = DemoLocalisation;
 			sourceTree = "<group>";
@@ -122,6 +144,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = A31248DD2031DD7700FFAA1D;
 			productRefGroup = A31248E72031DD7700FFAA1D /* Products */;
@@ -138,11 +161,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23FFE5262033429D0056F30B /* Image-Local.png in Resources */,
 				A31249622031FDA600FFAA1D /* Localizable.strings in Resources */,
 				A31248F62031DD7700FFAA1D /* LaunchScreen.storyboard in Resources */,
 				A312495D2031FDA500FFAA1D /* InfoPlist.strings in Resources */,
+				234ECD6820334BFD007CABFA /* grid-ipad.png in Resources */,
 				A31248F32031DD7700FFAA1D /* Assets.xcassets in Resources */,
 				A31248F12031DD7700FFAA1D /* Main.storyboard in Resources */,
+				23FFE52F2033442F0056F30B /* Colours.xcassets in Resources */,
+				23AA497A2033191E00B65275 /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,18 +183,29 @@
 				A31248EE2031DD7700FFAA1D /* ViewController.m in Sources */,
 				A31248F92031DD7700FFAA1D /* main.m in Sources */,
 				A31248EB2031DD7700FFAA1D /* AppDelegate.m in Sources */,
+				234ECD7020334CC8007CABFA /* TestObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		23FFE5282033429D0056F30B /* Image-Local.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23FFE5272033429D0056F30B /* Base */,
+				234ECD6B20334C92007CABFA /* it */,
+			);
+			name = "Image-Local.png";
+			sourceTree = "<group>";
+		};
 		A31248EF2031DD7700FFAA1D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A31248F02031DD7700FFAA1D /* Base */,
 				A312493C2031F99900FFAA1D /* en */,
 				A31249592031FD9600FFAA1D /* fr */,
+				234ECD6920334C92007CABFA /* it */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -177,6 +215,7 @@
 			children = (
 				A31248F52031DD7700FFAA1D /* Base */,
 				A312495A2031FD9600FFAA1D /* fr */,
+				234ECD6A20334C92007CABFA /* it */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -185,6 +224,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A312495E2031FDA500FFAA1D /* fr */,
+				234ECD6D20334C93007CABFA /* it */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -193,6 +233,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A31249632031FDA600FFAA1D /* fr */,
+				234ECD6C20334C92007CABFA /* it */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -310,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -325,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_STYLE = Automatic;

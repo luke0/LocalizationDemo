@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestObj.h"
 
 @interface ViewController ()
 
@@ -37,6 +38,9 @@
     
     self.labelTodaysDateValue.text = [df stringFromDate:[NSDate dateWithTimeIntervalSinceNow:0]];
     
+    [self.imageLocalised setImage:[UIImage imageNamed:NSLocalizedString(@"Image-Local", @"Test image for localisation")]];
+    
+    NSLog(@"%d",(int)[TestObj Test]);
 }
 
 -(void)viewDidAppear:(BOOL)animated{
