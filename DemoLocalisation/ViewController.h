@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *labelTotalAnnualRevenue;
+@property (weak, nonatomic) IBOutlet UILabel *labelTotalAnnualRevenueValue;
+@property (weak, nonatomic) IBOutlet UILabel *labelTodaysDate;
+@property (weak, nonatomic) IBOutlet UILabel *labelTodaysDateValue;
 
 @end
 

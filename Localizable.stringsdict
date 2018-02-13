@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Todays Date</key>
+	<dict>
+		<key>NSStringVariableWidthRuleType</key>
+		<dict>
+			<key>50</key>
+			<string>Todays date</string>
+			<key>20</key>
+			<string>Today</string>
+		</dict>
+	</dict>
+	<key>Total Annual Revenue</key>
+	<dict>
+		<key>NSStringVariableWidthRuleType</key>
+		<dict>
+			<key>50</key>
+			<string>Total Annual Revenue (in billions)</string>
+			<key>20</key>
+			<string>TAR (billions)</string>
+			<key>25</key>
+			<string>TAR (in billions)</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

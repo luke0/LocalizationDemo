@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Aaz-Zf-Wib">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,80 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyZ-HP-PSY">
+                                <rect key="frame" x="290" y="84" width="80" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Annual Revenue" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywo-Ca-wM7">
+                                <rect key="frame" x="5" y="84" width="164.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01/01/1970" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aE-Pr-5Gb">
+                                <rect key="frame" x="286" y="129.5" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todays date" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5O-Km-iRq">
+                                <rect key="frame" x="5" y="129.5" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ywo-Ca-wM7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Cwj-W7-LAC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UyZ-HP-PSY" secondAttribute="trailing" constant="5" id="Fia-A0-2EO"/>
+                            <constraint firstItem="W5O-Km-iRq" firstAttribute="leading" secondItem="Ywo-Ca-wM7" secondAttribute="leading" id="Hwi-4C-zqi"/>
+                            <constraint firstItem="UyZ-HP-PSY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ywo-Ca-wM7" secondAttribute="trailing" constant="10" id="SMz-SN-0bh"/>
+                            <constraint firstItem="UyZ-HP-PSY" firstAttribute="centerY" secondItem="Ywo-Ca-wM7" secondAttribute="centerY" id="XjD-as-Dvr"/>
+                            <constraint firstItem="2aE-Pr-5Gb" firstAttribute="centerY" secondItem="W5O-Km-iRq" secondAttribute="centerY" id="dft-5c-sVc"/>
+                            <constraint firstItem="2aE-Pr-5Gb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="W5O-Km-iRq" secondAttribute="trailing" constant="10" id="idL-4V-rB2"/>
+                            <constraint firstItem="Ywo-Ca-wM7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="l68-6G-y9W"/>
+                            <constraint firstItem="2aE-Pr-5Gb" firstAttribute="trailing" secondItem="UyZ-HP-PSY" secondAttribute="trailing" id="lo5-Yk-tvN"/>
+                            <constraint firstItem="W5O-Km-iRq" firstAttribute="top" secondItem="Ywo-Ca-wM7" secondAttribute="bottom" constant="25" id="wEI-28-Tuu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="QCf-cs-nmK"/>
+                    <connections>
+                        <outlet property="labelTodaysDate" destination="W5O-Km-iRq" id="dGX-To-BC2"/>
+                        <outlet property="labelTodaysDateValue" destination="2aE-Pr-5Gb" id="MMw-gV-GPB"/>
+                        <outlet property="labelTotalAnnualRevenue" destination="Ywo-Ca-wM7" id="4bx-e9-2XW"/>
+                        <outlet property="labelTotalAnnualRevenueValue" destination="UyZ-HP-PSY" id="4bQ-DQ-8C4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="479.19999999999999" y="132.68365817091455"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cM5-0o-4j4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Aaz-Zf-Wib" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kr1-0E-V0c">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VzH-Fk-ExZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zzc-b6-wiL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-385" y="133"/>
         </scene>
     </scenes>
 </document>
