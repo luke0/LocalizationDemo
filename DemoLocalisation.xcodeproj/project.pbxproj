@@ -49,6 +49,7 @@
 		A312495A2031FD9600FFAA1D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A312495E2031FDA500FFAA1D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A31249632031FDA600FFAA1D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A33B8A2422666B0100D0133D /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = "fr.lproj/Image-Local.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +146,7 @@
 				en,
 				Base,
 				it,
+				fr,
 			);
 			mainGroup = A31248DD2031DD7700FFAA1D;
 			productRefGroup = A31248E72031DD7700FFAA1D /* Products */;
@@ -195,6 +197,7 @@
 			children = (
 				23FFE5272033429D0056F30B /* Base */,
 				234ECD6B20334C92007CABFA /* it */,
+				A33B8A2422666B0100D0133D /* fr */,
 			);
 			name = "Image-Local.png";
 			sourceTree = "<group>";

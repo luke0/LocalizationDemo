@@ -24,7 +24,7 @@
     [super viewWillAppear:animated];
     
     self.labelTotalAnnualRevenue.text = NSLocalizedString(@"Total Annual Revenue", @"total value of a product");
-    self.labelTodaysDate.text = NSLocalizedString(@"Todays Date", @"The calendar date for the current date");
+    //self.labelTodaysDate.text = NSLocalizedString(@"Todays Date", @"The calendar date for the current date");
     
     NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
     f.numberStyle = NSNumberFormatterCurrencyStyle;
@@ -38,7 +38,7 @@
     
     self.labelTodaysDateValue.text = [df stringFromDate:[NSDate dateWithTimeIntervalSinceNow:0]];
     
-    [self.imageLocalised setImage:[UIImage imageNamed:NSLocalizedString(@"Image-Local", @"Test image for localisation")]];
+    //[self.imageLocalised setImage:[UIImage imageNamed:NSLocalizedString(@"Image-Local", @"Test image for localisation")]];
     
     NSLog(@"%d",(int)[TestObj Test]);
 }
